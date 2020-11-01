@@ -1,0 +1,22 @@
+<!-- <h1>Sign In Form</h1>
+<div [ngStyle]="{'background-color': isActive ? 'green' : 'red'}">
+    <button (click)="isActive = !isActive" >change</button>
+    <form action="" method="post" >
+        Email : <input type="email" name="email" [(ngModel)]="user.email" placeholder="Enter Your Email"> <br>
+        Password : <input type="password" name="password" [(ngModel)]="user.password" placeholder="Enter Your Password"> <br>
+        <button (click)="submit()">Sign In</button>
+    </form>
+</div> -->
+<!-- [ngClass]="{'class1': isActive }" -->
+<!-- [ngClass]= "isActive ? 'class1' : 'class2' " -->
+
+<h1>Sign In Form</h1>
+<div [ngClass]= "isActive ? 'class1' : 'class2' ">
+    <button (click)="isActive = !isActive" >change</button>
+    <form action="" method="post" >
+        Email : <input type="email" name="email" [(ngModel)]="user.email" placeholder="Enter Your Email"> <br>
+        Password : <input type="password" name="password" [(ngModel)]="user.password" placeholder="Enter Your Password"> <br>
+        <button (click)="submit()">Sign In</button>
+    </form>
+</div>
+

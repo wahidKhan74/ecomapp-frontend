@@ -1,0 +1,27 @@
+<!-- <p>product-list works!</p>
+<ul>
+    <li>{{product.name}}</li>
+    <li>{{product.description}}</li>
+    <li>{{product.price}}</li>
+</ul>
+
+<h1 [innerText]="pageTitle"></h1>
+<img [src]="imageUrl" alt=""> -->
+<!-- <input type="text" [value]="pageTitle" #inpdata>
+
+<button (click)="submitAction(inpdata)" >Submit</button> -->
+
+<!-- <input type="text" (input)="submitAction($event)"> 
+
+<button (click)="submitAction($event)">Submit</button> <br>
+
+<input type="text" name="commentText" [(ngModel)]="commentText">
+
+<h1>{{messageText}}</h1>
+<h1>{{commentText}}</h1> -->
+
+<ul >
+    <li *ngFor="let product of productList">
+        {{product.name}}   -- {{product.price}}
+    </li>
+</ul>

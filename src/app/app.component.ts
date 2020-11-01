@@ -10,15 +10,10 @@ export class AppComponent {
   //data
   title = 'ecomapp';
   name:string = "Will Smith";
-  product  = {
-    name :"Lenovo Ideapad 620",
-    description :"Best Lenove Laptop",
-    price:222222
-  }
-
+  
   //logic
   public showPrice(){
-    return this.product.price;
+    return 8987;
   }
  
 }
